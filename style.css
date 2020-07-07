@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #191919;
+    box-shadow: inset 0px 0px 14px rgba(0,0,0,0.5);
+}
+/* .logo{
+    width: 80px;
+} */
+.header-txt{
+    color:  #D2A905;
+    font-size: 6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.header-sub-txt{
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.image-box{
+    opacity: 0;
+}
+.slide-txt{
+    opacity: 0;
+}
+.social-links{
+    opacity: 0;
+}
+.image{
+    float: right;
+}
+.youtube-btn{
+    width: 40%;
+    background-color: red;
+    margin: auto;
+    color: #ffffff;
+    height: auto;
+}
+.youtube-btn i{
+    font-size: 1rem;
+}
+.social-links{
+    font-size: 2rem;
+    margin-left: 0;
+    padding-left: 0;
+}
+.youtube-btn:hover{
+    background-color: #ffffff;
+    color: red;
+}
+.quote{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: 'Cedarville Cursive', cursive;
+    opacity: 0;
+}
+@media only screen and (max-width: 600px) {
+    .header-txt{
+        font-size: 2rem;
+    }
+    .header-sub-txt{
+        font-size: 1rem;
+    }
+    nav{
+        display: none;
+    }
+    .youtube-btn{
+        width: 40%;
+    }
+    .quote{
+        font-size: 1.3rem;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .social-links{
+        font-size: 4rem;
+    }
+  }
+
+  
+
+
+
+    
